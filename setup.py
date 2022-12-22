@@ -29,9 +29,9 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "pandas~=1.2",
+        "pandas~=1.5",
         "termtables~=0.2",
-        "plotext~=3.1"
+        "plotext~=5.2"
     ],
     extras_require={
         "test": ["pytest", "pytest-cov"],
